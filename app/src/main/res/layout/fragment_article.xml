@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.hom_fragment.ArticleFragment">
+
+
+    <LinearLayout
+        android:id="@+id/Layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x4_Large"
+        android:layout_margin="@dimen/margin_top1"
+        android:background="@drawable/search_back"
+        android:elevation="@dimen/elevation"
+        android:orientation="horizontal"
+        tools:ignore="UnusedAttribute">
+
+        <Spinner
+            android:layout_gravity="center"
+            android:id="@+id/Article_Spinner_chose_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinner_entries" />
+
+        <EditText
+            android:paddingRight="@dimen/xlarge"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:id="@+id/Article_Et_search_Article"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="ادخل كلمة البحث هنا "
+            android:background="@android:color/transparent"
+            android:layoutDirection="rtl"
+            tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/large"
+        android:id="@+id/Article_RecyclerV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Layout_container" />
+
+</RelativeLayout>

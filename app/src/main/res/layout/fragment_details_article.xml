@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsArticleFragment">
+
+
+    <ImageView
+        android:layout_margin="@dimen/medium"
+        android:id="@+id/Details_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_margin="@dimen/medium"
+        android:id="@+id/Linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/Details_img"
+        android:background="@drawable/shap_lins"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Details_Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/medium" />
+
+        <ToggleButton
+            android:id="@+id/Details_Toggle"
+            android:layout_width="@dimen/xxhight"
+            android:layout_height="@dimen/xxhight"
+            android:layout_margin="@dimen/medium"
+            android:background="@drawable/ic_favrite_gray" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Details_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Linear_layout"
+        android:layout_margin="@dimen/medium"
+        android:background="@drawable/shap_lins" />
+
+
+</RelativeLayout>

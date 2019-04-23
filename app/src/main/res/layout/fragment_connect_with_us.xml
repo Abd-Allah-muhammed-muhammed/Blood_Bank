@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.nafacation_fragment.ConnectWithUsFragment"
+    >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/ic_logo"
+            android:layout_width="@dimen/full_hd"
+            android:layout_height="@dimen/full_hd"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/phone_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ic_logo"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="@dimen/xx_large"
+                android:layout_height="@dimen/xx_large"
+                android:layout_marginStart="@dimen/xx_large"
+                android:layout_marginTop="@dimen/medium"
+                android:src="@drawable/ic_phone"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/xx_large"
+                android:layout_marginTop="@dimen/medium"
+                android:text="الجوال  :  123456789"
+                android:textSize="@dimen/text_request"
+                android:textStyle="normal"
+
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/mail_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_layout_id"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="@dimen/xx_large"
+                android:layout_height="@dimen/xx_large"
+                android:layout_marginStart="@dimen/xx_large"
+                android:layout_marginTop="@dimen/medium"
+                android:src="@drawable/ic_maile"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/xx_large"
+                android:layout_marginTop="@dimen/medium"
+                android:text="ألبريد الالكتروني  :  name@name.name"
+                android:textSize="@dimen/text_request"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ic_connect_F_T_Y_I_G"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mail_layout_id"
+            android:layout_marginTop="@dimen/xx_large"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/xxxx_large"
+                android:layout_height="@dimen/xxxx_large"
+                android:layout_marginEnd="@dimen/xx_large"
+                android:src="@drawable/ic_facebook"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/xxxx_large"
+
+                android:layout_height="@dimen/xxxx_large"
+                android:layout_marginEnd="@dimen/xx_large"
+                android:src="@drawable/ic_youtube"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/xxxx_large"
+
+                android:layout_height="@dimen/xxxx_large"
+                android:layout_marginEnd="@dimen/xx_large"
+                android:src="@drawable/ic_instagram"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/xxxx_large"
+
+                android:layout_height="@dimen/xxxx_large"
+                android:layout_marginEnd="@dimen/xx_large"
+                android:src="@drawable/ic_twitter"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/xxxx_large"
+
+                android:layout_height="@dimen/xxxx_large"
+                android:layout_marginEnd="@dimen/xx_large"
+                android:src="@drawable/ic_gmail"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="@dimen/xxxx_large"
+                android:layout_height="@dimen/xxxx_large"
+                android:src="@drawable/ic_whatsapp"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Connect_withe_us_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ic_connect_F_T_Y_I_G"
+            android:layout_marginTop="@dimen/medium"
+            android:background="@color/sgin_up"
+            android:text="@string/connect_us"
+            android:textColor="@color/white"
+
+            />
+
+        <EditText
+            android:id="@+id/Name_Connect_Us"
+            style="@style/new_acc_edit_text"
+            android:layout_below="@+id/Connect_withe_us_btn"
+            android:layout_marginTop="@dimen/medium"
+            android:hint="@string/name_tv"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/mail_Connect_Us"
+            style="@style/new_acc_edit_text"
+            android:layout_below="@+id/Name_Connect_Us"
+            android:layout_marginTop="@dimen/medium"
+            android:hint="@string/mail"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/phone_Connect_Us"
+            style="@style/new_acc_edit_text"
+            android:layout_below="@+id/mail_Connect_Us"
+            android:layout_marginTop="@dimen/medium"
+            android:hint="@string/phone_hint_tv"
+            android:inputType="number"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/Message_title_connect_us"
+
+            style="@style/new_acc_edit_text"
+            android:layout_below="@+id/phone_Connect_Us"
+            android:layout_marginTop="@dimen/medium"
+            android:hint="@string/message_title"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/Message_Subject_connct_us"
+            style="@style/new_acc_edit_text"
+            android:layout_height="@dimen/hd2"
+            android:layout_below="@+id/Message_title_connect_us"
+            android:layout_marginTop="@dimen/medium"
+            android:layout_marginBottom="@dimen/normal"
+            android:hint="@string/message_subject"
+            tools:ignore="Autofill,TextFields" />
+
+        <Button
+            android:layout_margin="@dimen/medium"
+            android:layout_below="@+id/Message_Subject_connct_us"
+            android:id="@+id/Connect_withe_us_Send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sgin_up"
+            android:text="@string/send_btn"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+</RelativeLayout>

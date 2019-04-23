@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Bank</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Privacy">جميع الحقوق محفوظه لشركة ابداع تك للبرمجيات 2019</string>
+    <string name="skeep">تخطي</string>
+    <string name="new_acc">انشاء حساب جديد</string>
+    <string name="enter">دخول</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="name_tv">الاسم</string>
+    <string name="change_cod_tv">كود تغير كلمة المرور</string>
+    <string name="forgat_pass_tv">نسيت كلمة المرور</string>
+    <string name="phone_hint_tv">الجوال</string>
+    <string name="send_btn">ارسال</string>
+    <string name="write_the_pass_tv">كلمة المرور</string>
+    <string name="did_u_forget_pass_tv">هل نسيت كلمة المرور</string>
+    <string name="new_pass_word">كلمة المرور الجديد</string>
+    <string name="Inquiry_Code">كود التحقق</string>
+    <string name="phone_number_tv">رقم الهاتف</string>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location">Map</string>
+    <string name="chose_the_location">حدد الموقع</string>
+    <string name="name">الاسم</string>
+    <string name="age">العمر</string>
+    <string name="cantry">المحافظة</string>
+    <string name="city">المدينة</string>
+    <string name="notes">ملاحظات</string>
+    <string name="send_request">ارسال الطلب</string>
+    <string name="name_of_hospital">اسم المستشفي</string>
+    <string name="address_of_hospital">عنوان المستشفي</string>
+    <string name="number_of_blood">عدد الاكياس</string>
+    <string name="blood">فصيلة الدم</string>
+    <string name="call">اتصال</string>
+    <string name="dec">التفاصيل</string>
+    <string name="fake_data_name_request">طلب طبرع : عبد الله</string>
+    <string name="make_request">طلب تبرع</string>
+    <string name="logo_the_splash_dec">logo the splash</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="change_pass_tv">تغيير كلمة المرور</string>
+    <string name="confime_new_pass">تاكيد كلمة المرور الجديدة</string>
+    <string name="connect_us">تواصل معنا</string>
+    <string name="mail">البريد الالكتروني</string>
+    <string name="message_title">عوان الرسالة</string>
+    <string name="message_subject">نص الرسالة</string>
+    <string name="favorite">المفضلة</string>
+    <string name="how_to_use">تعليمات الاستخدام</string>
+    <string name="edit_btn">تعديل</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="birth_day">تاريخ الميلاد</string>
+    <string name="last_date">اخر تاريخ للتبرع</string>
+    <string name="regester">تسجيل</string>
+    <string name="Choos_city">اختر المدينة</string>
+    <string name="choose_blood_type">اختر فصيلة الدم</string>
+    <string name="setting_notification">اعدادات الاشعارات</string>
+    <string name="type_blood">فصائل الدم</string>
+    <string name="alghrbia">الغربية</string>
+    <string name="dkahlia">الدقهلية</string>
+    <string name="mnia">المنيا</string>
+    <string name="kafr_elshikh">كفر الشيخ</string>
+    <string name="cairo">القاهرة</string>
+    <string name="elsharkia">الشرقية</string>
+    <string name="save">حفظ</string>
+    <string name="confirm_pass">تاكيد كلمة المرور</string>
+    <string name="eldakahlia">الدقهلية</string>
+    <string name="elmansoura">المنصورة</string>
+    <string name="belkas">بلقاس</string>
+    <string name="msg_token_fmt">my token is</string>
+    <string name="one">1</string>
+
+    الدقهلية
+
+</resources>

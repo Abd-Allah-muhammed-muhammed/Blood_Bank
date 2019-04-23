@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".ui.fragment.users_fragment.NewAccountFragment">
+
+
+
+    <EditText
+        android:id="@+id/NewAcc_Et_Name"
+        style="@style/new_acc_edit_text"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/NewAcc_Et_Mail"
+        style="@style/new_acc_edit_text"
+        android:layout_below="@+id/NewAcc_Et_Name"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:hint="@string/mail" />
+
+    <LinearLayout
+        android:id="@+id/birth_day_layout"
+        style="@style/new_acc_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NewAcc_Et_Mail"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:textDirection="rtl"
+            android:focusable="false"
+            android:drawableStart="@drawable/ic_birthday"
+            android:id="@+id/NewAcc_Tv_Birth"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xxxx_large"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/birth_day"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <EditText
+        android:gravity="center_vertical"
+        android:hint="@string/type_blood"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_below="@+id/birth_day_layout"
+        android:id="@+id/NewAcc_Tv_Blood_Type"
+        style="@style/new_acc_edit_text"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/last_date_day_layout"
+        style="@style/new_acc_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NewAcc_Tv_Blood_Type"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:drawableStart="@drawable/ic_birthday"
+            android:id="@+id/NewAcc_Tv_Last_date"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xxxx_large"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/last_date" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="@dimen/margin_top1"
+    style="@style/new_acc_edit_text"
+    android:layout_below="@+id/last_date_day_layout"
+    android:id="@+id/NewAcc_Layout_cantry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Spinner
+        android:id="@+id/NewAcc_spinner_cantry"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxx_large"
+        android:layout_below="@+id/last_date_day_layout"
+        android:layout_marginStart="@dimen/xx_large"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginEnd="@dimen/xx_large">
+
+
+    </Spinner>
+
+</LinearLayout>
+
+<LinearLayout
+    style="@style/new_acc_edit_text"
+    android:layout_marginTop="@dimen/margin_top1"
+
+    android:layout_below="@+id/NewAcc_Layout_cantry"
+    android:id="@+id/NewAcc_Layout_cities"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Spinner
+
+        android:id="@+id/NewAcc_spinner_city"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xxxx_large"
+        android:layout_below="@+id/NewAcc_spinner_cantry"
+        android:layout_marginStart="@dimen/xx_large"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:layout_marginEnd="@dimen/xx_large">
+
+
+    </Spinner>
+</LinearLayout>
+
+
+    <EditText
+        android:id="@+id/NewAcc_Ed_phone"
+        style="@style/new_acc_edit_text"
+        android:layout_below="@+id/NewAcc_Layout_cities"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:hint="@string/phone_number_tv" />
+
+    <EditText
+        android:id="@+id/NewAcc_Et_pss"
+        style="@style/new_acc_edit_text"
+        android:layout_below="@+id/NewAcc_Ed_phone"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:hint="@string/write_the_pass_tv"
+
+        />
+
+    <EditText
+        android:id="@+id/NewAcc_Et_Confirm_pss"
+        style="@style/new_acc_edit_text"
+        android:layout_below="@+id/NewAcc_Et_pss"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:hint="@string/confirm_pass" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/NewAcc_Btn_Regester"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x4_Large"
+        android:layout_margin="@dimen/xx_large"
+        android:background="@color/sgin_up"
+        android:text="@string/regester"
+        android:textColor="@color/white" />
+</RelativeLayout>

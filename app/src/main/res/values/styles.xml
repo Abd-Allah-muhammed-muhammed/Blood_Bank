@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="text_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+
+
+    </style>
+
+    <style name="view_edit_tv">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:background">@drawable/shap_lins</item>
+        <item name="android:layout_marginStart">@dimen/medium</item>
+        <item name="android:layout_marginEnd">@dimen/medium</item>
+
+
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginStart">@dimen/medium</item>
+        <item name="android:layout_marginEnd">@dimen/medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="new_acc_edit_text">
+<item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/text_btn</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_height">@dimen/x4_Large</item>
+        <item name="android:background">@drawable/shap_lins</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:paddingRight">@dimen/medium</item>
+        <item name="android:paddingLeft">@dimen/medium</item>
+
+
+    </style>
+
+
+
+    <style name="make_request">
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/text_btn</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_height">@dimen/x4_Large</item>
+        <item name="android:background">@drawable/shap_lins</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:paddingRight">@dimen/medium</item>
+        <item name="android:paddingLeft">@dimen/medium</item>
+
+
+    </style>
+
+
+
+
+
+    <style name="My_Info_edit_text">
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_height">37dp</item>
+        <item name="android:background">@drawable/shap_lins</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    </style>
+
+
+
+
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+
+
+
+
+    <style name="request_donation_tv">
+
+<item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/medium</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_request</item>
+        <item name="android:layout_marginEnd">@dimen/medium</item>
+        <item name="android:paddingRight">@dimen/normal</item>
+        <item name="android:textSize">@dimen/text_request</item>
+    </style>
+
+
+    <style name="view_line">
+
+        <item name="android:layout_height">@dimen/dp_1</item>
+        <item name="android:layout_marginStart">@dimen/medium</item>
+        <item name="android:layout_marginTop">@dimen/margin_top1</item>
+        <item name="android:layout_marginEnd">@dimen/medium</item>
+        <item name="android:background">@color/borderColor</item>
+
+
+    </style>
+
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Updating…</item>
+        <item name="DialogSpotColor">@android:color/holo_orange_dark</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+</resources>

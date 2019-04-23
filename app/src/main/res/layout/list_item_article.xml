@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/Layout_Frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/normal"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/Title_Layout_List_item"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/xxxdp"
+        android:background="@drawable/shap_lins">
+
+
+        <TextView
+            android:id="@+id/item_article_title"
+            android:padding="@dimen/normal"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_btn" />
+
+
+        <ImageView
+            android:id="@+id/item_article_btn_favorite"
+            android:layout_width="@dimen/marg_check_box"
+            android:layout_height="@dimen/marg_check_box"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/medium"
+            android:background="@drawable/back_favorite"
+            android:padding="@dimen/normal"
+            android:src="@drawable/ic_favrite_gray" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_article_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_size2"
+        android:layout_below="@+id/Title_Layout_List_item"
+        android:background="@drawable/shap_lins"
+        android:padding="@dimen/normal"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

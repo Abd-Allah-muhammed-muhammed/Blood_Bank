@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.hom_fragment.RequestsFragment">
+
+    <LinearLayout
+        android:id="@+id/container_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginEnd="@dimen/normal"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/normal"
+            android:layout_marginTop="@dimen/margin_top1"
+            android:layout_marginBottom="@dimen/normal"
+            android:layout_weight="1"
+            android:background="@drawable/search_back"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/Requests_Sp_Blood_type"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/medium"
+                >
+
+
+            </Spinner>
+
+<EditText
+
+android:padding="@dimen/small"
+    android:id="@+id/Requests_choseBloodT"
+    android:gravity="center"
+    android:textSize="16sp"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:hint="اختر فصيلة الدم"
+    />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+android:layout_marginEnd="@dimen/normal"
+            android:layout_height="50dp"
+            android:layout_marginStart="@dimen/normal"
+            android:layout_marginTop="@dimen/margin_top1"
+            android:layout_marginBottom="@dimen/normal"
+            android:layout_weight="1"
+            android:background="@drawable/search_back"
+            android:elevation="@dimen/elevation"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/Requests_Sp_city"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_top1"
+             />
+<EditText
+    android:padding="@dimen/small"
+    android:textSize="16sp"
+    android:id="@+id/Requests_choseCantry"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:hint="اختر المدينة"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/search_back"
+            android:layout_width="5dp"
+            android:layout_marginTop="@dimen/margin_top1"
+            android:layout_marginBottom="@dimen/normal"
+            android:padding="@dimen/small"
+            android:layout_height="50dp"
+            android:layout_weight=".2"
+            android:elevation="@dimen/elevation">
+
+            <ImageView
+                android:id="@+id/Requestss_Search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/medium"
+                android:src="@drawable/ic_search_black_24dp">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Requestes_donation_Rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/container_home">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.nafacation_fragment.Setting_notificationFragment">
+
+
+    <TextView
+        android:id="@+id/info_setting_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/full_hd"
+        android:layout_margin="@dimen/xxx_large"
+        android:fontFamily="sans-serif-thin"
+        android:text="هذا النص من الممكن ان  يكون اي بتنجان لان البتنجان غالي اليومين دول وكمان الكوسه وايضا عندما ذهب لم يكن هنالك عشان كان بيلعب بلايستيشن بفلوس الدرس  "
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_request"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/Linear_layout_type_blood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_setting_notification"
+        android:layout_marginStart="@dimen/margin_top1"
+        android:layout_marginEnd="@dimen/margin_top1"
+        android:background="@drawable/back_titl_tv_setting"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="@dimen/x4_Large"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/margin_top1"
+            android:text="@string/type_blood"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            tools:targetApi="o_mr1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info_setting_notification_whit"
+            android:orientation="vertical">
+<android.support.v7.widget.RecyclerView
+
+    android:id="@+id/setting_noti_Blood_Type"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linear_layout_cities"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_linear_check_cities"
+        android:layout_below="@+id/Linear_layout_type_blood"
+        android:layout_marginStart="@dimen/margin_top1"
+        android:layout_marginTop="@dimen/xlarge"
+        android:layout_marginEnd="@dimen/margin_top1"
+        android:background="@drawable/back_titl_tv_setting"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x4_Large"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/margin_top1"
+            android:text="@string/cantry"
+            android:textStyle="bold"
+            tools:targetApi="o_mr1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/info_setting_notification_whit"
+            android:orientation="vertical">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/setting_noti_cantry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/sgin_up"
+        android:fontFamily="sans-serif-thin"
+        android:text="حفظ"
+android:id="@+id/Save_Settings_noti"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_request" />
+
+
+</RelativeLayout>

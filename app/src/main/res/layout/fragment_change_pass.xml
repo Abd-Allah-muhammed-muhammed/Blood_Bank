@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".ui.fragment.users_fragment.ChangePassFragment">
+
+    <ImageView
+        android:id="@+id/logo_change_pass"
+        android:layout_width="@dimen/logo_size2"
+        android:layout_height="@dimen/logo_size2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x4_Large"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/change_cod_tv"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_change_pass"
+        android:layout_marginTop="@dimen/xxxx_large"
+        android:gravity="center"
+        android:text="@string/change_cod_tv" />
+
+    <EditText
+        android:id="@+id/Change_pass_Inquiry_Code_Et"
+        style="@style/view_edit_tv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/change_cod_tv"
+        android:layout_marginTop="@dimen/xx_large"
+        android:hint="@string/Inquiry_Code"
+        tools:ignore="Autofill,TextFields" />
+
+
+    <EditText
+        android:id="@+id/Change_pass_new_pass_Et"
+        style="@style/view_edit_tv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/Change_pass_Inquiry_Code_Et"
+        android:layout_marginTop="@dimen/xlarge"
+        android:hint="@string/new_pass_word"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Change_pass_Confime_new_pass_Et"
+        style="@style/view_edit_tv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/Change_pass_new_pass_Et"
+        android:layout_marginTop="@dimen/xlarge"
+        android:hint="@string/confime_new_pass"
+        tools:ignore="Autofill,TextFields" />
+
+    <Button
+        android:id="@+id/chang_pass_btn"
+        style="@style/button_style"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/medium"
+        android:background="@color/color_btn_back_1"
+        android:text="@string/change_pass_tv"
+
+        />
+</RelativeLayout>

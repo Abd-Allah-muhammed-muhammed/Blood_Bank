@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="activity_horizontal_margin">13.3dp</dimen>
+	<dimen name="activity_vertical_margin">13.3dp</dimen>
+	<dimen name="nav_header_vertical_spacing">6.7dp</dimen>
+	<dimen name="nav_header_height">146.7dp</dimen>
+	<dimen name="fab_margin">13.3dp</dimen>
+	<dimen name="small">2dp</dimen>
+	<dimen name="normal">4dp</dimen>
+	<dimen name="medium">8dp</dimen>
+	<dimen name="large">12dp</dimen>
+	<dimen name="xlarge">16dp</dimen>
+	<dimen name="xx_large">20dp</dimen>
+	<dimen name="xxx_large">24dp</dimen>
+	<dimen name="xxxx_large">32dp</dimen>
+	<dimen name="x4_Large">44dp</dimen>
+	<dimen name="hd">48dp</dimen>
+	<dimen name="hd2">56dp</dimen>
+	<dimen name="hd3">75dp</dimen>
+
+	<dimen name="weight_layout">1dp</dimen>
+
+	<dimen name="full_hd">100dp</dimen>
+	<dimen name="high_tv_request">30dp</dimen>
+	<dimen name="text_request">18sp</dimen>
+	<dimen name="margin_top_request">5dp</dimen>
+	<dimen name="margin_top1">10dp</dimen>
+	<dimen name="toolbar_title">20sp</dimen>
+	<dimen name="elevation">1dp</dimen>
+	<dimen name="text_btn">16sp</dimen>
+	<dimen name="dp_1">1dp</dimen>
+	<dimen name="logo_size">200dp</dimen>
+	<dimen name="logo_size2">150dp</dimen>
+	<dimen name="tx_type_blood">10sp</dimen>
+	<dimen name="width">135dp</dimen>
+	<dimen name="size_check_box">80dp</dimen>
+	<dimen name="marg_check_box">30dp</dimen>
+	<dimen name="height_linear_check_cities">140dp</dimen>
+	<dimen name="xhight">120dp</dimen>
+	<dimen name="xxxsp">50sp</dimen>
+	<dimen name="xxhight">35dp</dimen>
+	<dimen name="xxxdp">50dp</dimen>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".ui.fragment.nafacation_fragment.MyInfoFragment">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/MyInfo_Tv_name"
+                style="@style/My_Info_edit_text"
+                android:layout_marginTop="@dimen/medium"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+
+
+                android:id="@+id/MyInfo_Tv_Maile"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Tv_name"
+                android:layout_marginTop="@dimen/medium"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+
+
+                android:id="@+id/MyInfo_Tv_birth"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Tv_Maile"
+                android:layout_marginTop="@dimen/medium"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+
+
+                android:id="@+id/MyInfo_Tv_blood_type"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Tv_birth"
+                android:layout_marginTop="@dimen/medium"
+
+                tools:ignore="HardcodedText" />
+
+            <EditText
+
+
+                android:id="@+id/MyInfo_Tv_Last_time"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Tv_blood_type"
+                android:layout_marginTop="@dimen/medium"
+
+                tools:ignore="HardcodedText" />
+
+
+            <LinearLayout
+
+                android:id="@+id/layout_cantry"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Tv_Last_time"
+                android:layout_marginTop="@dimen/medium"
+                android:orientation="horizontal"
+
+                >
+
+                <Spinner
+                    android:id="@+id/MyInfo_Spinner_cantry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                </Spinner>
+
+               
+
+            </LinearLayout>
+
+            <LinearLayout
+
+
+                android:id="@+id/layout_city"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/layout_cantry"
+                android:layout_marginTop="@dimen/medium"
+                android:background="@drawable/search_back"
+                android:orientation="horizontal"
+
+                >
+
+                <Spinner
+                    android:id="@+id/MyInfo_Spinner_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                </Spinner>
+
+               
+
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/MyInfo_Et_phone"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/layout_city"
+                android:layout_marginTop="@dimen/medium"
+
+                tools:ignore="HardcodedText" />
+
+
+            <EditText
+
+
+                android:id="@+id/MyInfo_Et_pass"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Et_phone"
+                android:layout_marginTop="@dimen/medium"
+                android:inputType="textPassword"
+
+                tools:ignore="HardcodedText" />
+
+            <EditText
+
+
+                android:id="@+id/MyInfo_Et_convert_pass"
+                style="@style/My_Info_edit_text"
+                android:layout_below="@+id/MyInfo_Et_pass"
+                android:layout_marginTop="@dimen/medium"
+                android:inputType="textPassword"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/MyInfo_btn_Edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MyInfo_Et_convert_pass"
+                android:layout_marginStart="@dimen/xlarge"
+                android:layout_marginTop="@dimen/medium"
+                android:layout_marginEnd="@dimen/xlarge"
+                android:background="@color/sgin_up"
+                android:text="@string/edit_btn"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".ui.fragment.users_fragment.LoginFragment">
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/Login_Progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/logo_size2"
+        android:layout_height="@dimen/logo_size2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x4_Large"
+        android:layout_marginBottom="@dimen/x4_Large"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:inputType="phone"
+        android:id="@+id/Register_Et_phone"
+        style="@style/view_edit_tv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/logo"
+        android:hint="@string/phone_hint_tv"
+        android:textColorHint="@color/text_color" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/Register_Et_pass"
+        style="@style/view_edit_tv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/Register_Et_phone"
+        android:layout_marginTop="@dimen/margin_top1"
+        android:background="@drawable/shap_lins"
+        android:hint="@string/write_the_pass_tv" />
+
+    <RelativeLayout
+        android:id="@+id/forget_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Register_Et_pass"
+        android:layout_margin="@dimen/margin_top1">
+
+
+        <TextView
+            android:id="@+id/did_you_forget_the_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:drawableRight="@drawable/ic_warning_black_24dp"
+            android:padding="@dimen/normal"
+            android:text="@string/did_u_forget_pass_tv"
+            android:drawablePadding="@dimen/normal"
+            android:textColor="@color/text_color" />
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/Register_Sp_Remember_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layoutDirection="rtl"
+                android:padding="@dimen/normal"
+                android:text="@string/remember_me" />
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/enter_and_new_acc_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forget_linear"
+
+        android:layout_marginTop="@dimen/large">
+
+
+        <Button
+            android:id="@+id/Register_Btn_Enter"
+            style="@style/button_style"
+            android:background="@color/color_btn_back_1"
+            android:text="@string/enter" />
+
+        <Button
+            android:id="@+id/Register_Btn_NewAcc"
+
+            style="@style/button_style"
+            android:layout_below="@+id/Register_Btn_Enter"
+            android:layout_marginTop="@dimen/xx_large"
+            android:background="@color/color_btn_back_2"
+            android:text="@string/new_acc" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/shap_lins"
+    android:orientation="horizontal"
+    android:layoutDirection="rtl"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_margin="@dimen/medium"
+    android:orientation="horizontal"
+    android:layout_width="0dp"
+    android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/Noti_List_Icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_notifications_none_black_24dp"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/Noti_List_Title"
+        android:paddingRight="@dimen/medium"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تنبيه بخصوص طلبك"/>
+</LinearLayout>
+
+<ImageView
+    android:padding="@dimen/small"
+    android:layout_margin="@dimen/small"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_access_time_black_24dp"
+    />
+
+        <TextView
+            android:id="@+id/Noti_List_data"
+            android:padding="@dimen/small"
+            android:layout_margin="@dimen/small"
+            android:layout_gravity="center_vertical"
+            android:text="15/1/1999 الاربعاء"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

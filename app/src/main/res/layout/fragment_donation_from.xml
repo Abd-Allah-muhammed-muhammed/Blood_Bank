@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.hom_fragment.DonationFromActivity">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+
+
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <View
+                style="@style/view_line"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+
+                    android:layout_weight="2"
+                    android:text="@string/name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textDirection="rtl"
+                    android:id="@+id/Request_Frome_Tv_name"
+                    style="@style/request_donation_tv"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+
+            <View
+                style="@style/view_line"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+
+                    android:layout_weight="2"
+                    android:text="@string/age"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textDirection="rtl"
+
+                    android:id="@+id/Request_Frome_Tv_age"
+                    style="@style/request_donation_tv"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+
+                    android:layout_weight="2"
+                    android:text="@string/blood"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Request_Frome_Tv_blood_type"
+                    android:textDirection="rtl"
+
+                    style="@style/request_donation_tv"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+
+            <View
+                style="@style/view_line"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+
+                    android:layout_weight="2"
+                    android:text="@string/number_of_blood"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textDirection="rtl"
+
+                    android:id="@+id/Request_Frome_Tv_Number_blood"
+                    style="@style/request_donation_tv"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+
+            <View
+                style="@style/view_line"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+
+                    android:layout_weight="2"
+                    android:text="@string/name_of_hospital"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Request_Frome_Tv_Hospital_name"
+                    android:textDirection="rtl"
+
+                    style="@style/request_donation_tv"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/view_line"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+
+                    android:layout_weight="2"
+                    android:text="@string/phone_hint_tv"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Request_Frome_Tv_phone"
+                    android:textDirection="rtl"
+
+                    style="@style/request_donation_tv"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hd2"
+                android:background="@drawable/shap_lins"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/request_donation_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/medium"
+                    android:layout_weight="3"
+                    android:text="التفاصيل:"
+                    android:textStyle="bold"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/Request_From_Tv_description"
+                    android:textDirection="rtl"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/text_request" />
+
+
+            </LinearLayout>
+
+
+            <fragment
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:id="@+id/Request_From_map_location"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="@dimen/medium"
+                android:layout_marginTop="@dimen/medium"
+                android:layout_marginEnd="@dimen/medium"
+                android:layout_marginBottom="@dimen/large" />
+
+
+            <Button
+                android:id="@+id/Request_From_btn_call"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x4_Large"
+                android:layout_marginStart="@dimen/medium"
+                android:layout_marginEnd="@dimen/medium"
+                android:background="@color/colorAccent"
+                android:text="@string/call"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

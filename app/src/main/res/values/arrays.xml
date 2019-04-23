@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="img_id_arr">
+        <item>@drawable/instructions</item>
+        <item>@drawable/instructions2</item>
+        <item>@drawable/instructions</item>
+        <item>@drawable/instructions2</item>
+    </integer-array>
+
+    <string-array name="spinner_entries">
+
+        <item>الوقاية</item>
+
+    </string-array>
+
+
+    <string-array name="spinner_entries_cities">
+
+        <item>@string/elmansoura</item>
+        <item>@string/belkas</item>
+    </string-array>
+
+    <string-array name="spinner_entries_cantry">
+
+        <item>@string/eldakahlia</item>
+    </string-array>
+
+
+</resources>

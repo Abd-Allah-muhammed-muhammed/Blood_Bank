@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dad5d5</color>
+    <color name="colorPrimaryDark">#a8bc9f</color>
+    <color name="colorAccent">#3ab54a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="borderColor">#d6d2d2</color>
+    <color name="color_btn_back_2">#4ca4c4</color>
+    <color name="color_btn_back_1">#3ab54a</color>
+    <color name="text_color">#333232</color>
+    <color name="sgin_up">#2D3E50</color>
+    <color name="home_back">#edeff2</color>
+    <color name="artical">#2D3E50</color>
+    <color name="requests">#f6f6f6</color>
+
+</resources>

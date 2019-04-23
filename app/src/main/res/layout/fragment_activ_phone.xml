@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".ui.fragment.users_fragment.ActivPhoneFragment">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/logo_size2"
+        android:layout_height="@dimen/logo_size2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/hd2"
+        android:src="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/did_you"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="@dimen/xxx_large"
+        android:layout_marginBottom="@dimen/normal"
+        android:text="@string/forgat_pass_tv" />
+
+    <EditText
+        android:layout_marginTop="@dimen/xlarge"
+        android:id="@+id/Activ_phone_edit_text"
+        style="@style/view_edit_tv"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/did_you"
+        android:gravity="center_vertical"
+        android:hint="@string/phone_hint_tv"
+        android:inputType="phone"
+         />
+
+    <Button
+        android:id="@+id/Active_phone_btn_send_code"
+        style="@style/button_style"
+        android:layout_below="@+id/Activ_phone_edit_text"
+
+        android:layout_marginTop="@dimen/xx_large"
+        android:background="@color/colorAccent"
+        android:text="@string/send_btn"
+        android:textColor="@color/white"
+        android:textColorHint="@color/text_color"
+        android:textSize="@dimen/text_btn" />
+</RelativeLayout>

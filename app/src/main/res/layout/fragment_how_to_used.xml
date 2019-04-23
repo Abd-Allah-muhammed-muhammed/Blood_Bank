@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.nafacation_fragment.HowToUsedFragment">
+
+
+
+
+
+    <TextView
+        android:id="@+id/info_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_top1"
+        android:fontFamily="sans-serif-thin"
+        android:text="هذا النص من الممكن ان  يكون اي بتنجان لان البتنجان غالي اليومين دول وكمان الكوسه وايضا عندما ذهب لم يكن هنالك عشان كان بيلعب بلايستيشن بفلوس الدرس                   هذا النص من الممكن ان  يكون اي بتنجان لان البتنجان غالي اليومين دول وكمان الكوسه وايضا عندما ذهب لم يكن هنالك عشان كان بيلعب بلايستيشن بفلوس الدرس        هذا النص من الممكن ان  يكون اي بتنجان لان البتنجان غالي اليومين دول وكمان الكوسه وايضا عندما ذهب لم يكن هنالك عشان كان بيلعب بلايستيشن بفلوس الدرس       هذا النص من الممكن ان  يكون اي بتنجان لان البتنجان غالي اليومين دول وكمان الكوسه وايضا عندما ذهب لم يكن هنالك عشان كان بيلعب بلايستيشن بفلوس الدرس  "
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_request"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
